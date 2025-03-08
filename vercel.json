@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "index2.php",
+      "src": "SPORTS.php",
       "use": "vercel-php"
     }
   ],
   "routes": [
   {
     "src": "/(.*)",
-    "dest": "/index2.php?get=$1"
+    "dest": "/SPORTS.php?get=$1"
   }
 ],
   "regions": ["sin1"]
